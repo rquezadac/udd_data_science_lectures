@@ -1,0 +1,136 @@
+# PARTE 1: Fundamentos matemáticos elementales.
+---
+
+## Índice de contenidos.
+- [**CLASE 1.1:** Un repaso (consciente) de álgebra lineal.](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20I%20-%20Fundamentos%20matem%C3%A1ticos%20elementales/clase_1_1.ipynb)
+    - 1.1 Introducción.
+    - 1.2 Sistemas de ecuaciones lineales.
+    - 1.3 Matrices.
+        - 1.3.1 Adición y multiplicación de matrices.
+        - 1.3.2 Matriz inversa y transpuesta.
+        - 1.3.3 Multiplicación de una matriz por un escalar.
+    - 1.4 Solución de un sistema lineal de ecuaciones.
+        - 1.4.1 Representación matricial de un sistema lineal de ecuaciones.
+        - 1.4.2 Transformaciones elementales sobre una matriz.
+        - 1.4.3 Método de eliminación Gaussiana.
+    - 1.5 Espacios vectoriales.
+        - 1.5.1 Grupos.
+        - 1.5.2 Definición de un espacio vectorial.
+        - 1.5.3 Subespacios.
+    - 1.6 Independencia lineal.
+        - 1.6.1 Generadores.
+        - 1.6.2 Sistemas de generadores.
+        - 1.6.3 Definición de independencia lineal.
+    - 1.7 Base y dimensión.
+    - 1.8 Transformaciones lineales.
+        - 1.8.1 Propiedades de las transformaciones lineales.
+        - 1.8.2 Teorema de la dimensión.
+        - 1.8.3 Representación matricial de las transformaciones lineales.
+    - 1.9 Comentarios.
+
+- [**CLASE 1.2:** Espacios vectoriales con producto interno.](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20I%20-%20Fundamentos%20matem%C3%A1ticos%20elementales/clase_1_2.ipynb)
+    - 2.1 Introducción.
+    - 2.2 Producto interno.
+    - 2.3 Longitud y distancia.
+    - 2.4 Ortogonalidad.
+        - 2.4.1 Ángulo entre vectores.
+        - 2.4.2 Bases ortogonales.
+        - 2.4.3 Proceso de ortogonalización de Gram-Schmidt.
+    - 2.5 Proyecciones.
+        - 2.5.1 Proyección sobre espacios unidimensionales.
+        - 2.5.2 Proyección sobre subespacios más generales.
+    - 2.6 Rotaciones.
+        - 2.6.1 Rotaciones en $\mathbb{R}^{2}$
+        - 2.6.2 Rotaciones en $\mathbb{R}^{3}$
+    - 2.7 Comentarios.
+
+ - [**CLASE 1.3:** Descomposiciones matriciales.](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20I%20-%20Fundamentos%20matem%C3%A1ticos%20elementales/clase_1_3.ipynb)
+    - 3.1 Introducción.
+    - 3.2 Determinantes.
+        - 3.2.1 Un interludio previo.
+        - 3.2.2 Interpretación geométrica del determinante.
+        - 3.2.3 Propiedades de los determinantes.
+    - 3.3 Diagonalización de matrices.
+        - 3.3.1 Autovalores y autovectores.
+        - 3.3.2 Espectro de una matriz simétrica.
+    - 3.4 Una introducción a las formas.
+        - 3.4.1 Formas lineales.
+        - 3.4.2 Formas bilineales.
+        - 3.4.3 Formas cuadráticas.
+        - 3.4.4 Una aplicación de las formas a la geometría analítica.
+    - 3.5 Descomposición de Cholesky.
+    - 3.6 Descomposición QR.
+    - 3.7 Descomposición en valores singulares.
+        - 3.7.1 Una primera explicación geométrica.
+        - 3.7.2 Construcción de la descomposición.
+        - 3.7.3 Comparación con la diagonalización.
+    - 3.8 Aproximaciones matriciales.
+
+- **CLASE 1.4:** Un repaso (consciente) de cálculo diferencial.
+    - 4.1 Introducción.
+    - 4.2 Diferenciación de funciones de una variable.
+        - 4.2.1 Álgebra de derivadas.
+        - 4.2.2 Regla de la cadena.
+        - 4.2.3 Series de Taylor.
+    - 4.3 Derivadas parciales.
+    - 4.4 Campo gradiente.
+        - 4.4.1 Gradiente de un campo escalar.
+        - 4.4.2 Regla de la cadena para campos escalares.
+        - 4.4.3 Gradiente de un campo vectorial.
+        - 4.4.4 Gradiente de funciones matriciales.
+        - 4.4.5 Algunos gradientes usuales en machine learning.
+    - 4.5 Retropropagación.
+        - 4.5.1 El concepto de red neuronal artificial.
+            - 4.5.1.1 Modelo de McCulloch & Pitts.
+            - 4.5.1.2 Perceptrón de Rosenblatt.
+            - 4.5.1.3 Perceptrón multicapa.
+        - 4.5.2 Gradientes en una red neuronal profunda.
+    - 4.6 Diferenciación automática.
+        - 4.6.1 Acumulación progresiva.
+        - 4.6.2 Acumulación regresiva.
+    - 4.7 Matriz Hessiana.
+    - 4.8 Serie multivariable de Taylor.
+
+- **CLASE 1.5:** Una introducción (generosa) al cálculo de probabilidades.
+    - 5.1 Introducción.
+    - 5.2 Teoría clásica de probabilidad.
+        - 5.2.1 El concepto de probabilidad.
+        - 5.2.2 Asignación de probabilidades.
+        - 5.2.3 Probabilidad condicional.
+    - 5.3 Teoría moderna de probabilidad.
+        - 5.3.1 Funciones de conjunto con aditividad finita.
+        - 5.3.2 Medidas con aditividad finita.
+        - 5.3.3 Definición de probabilidad.
+    - 5.4 Experimentos o pruebas compuestas.
+        - 5.4.1 Pruebas de Bernoulli.
+        - 5.4.2 Número más probable de éxitos en $n$ pruebas de Bernoulli.
+    - 5.5 Conjuntos numrables y no numerables.
+        - 5.5.1 Definición de probabilidad para espacios muestrales infinitos numerables.
+        - 5.5.2 Definición de probabilidad para espacios muestrales infinitos no numerables.
+        - 5.5.3 Numerabilidad de un conjunto de puntos con probabilidad positiva.
+    - 5.6 Variables aleatorias.
+    - 5.7 Funciones de distribución.
+        - 5.7.1 Distribuciones discretas.
+        - 5.7.2 Distribuciones continuas.
+    - 5.8 Valor esperado de una variable aleatoria.
+    - 5.9 Varianza de una variable aleatoria.
+    - 5.10 Distribuciones multivariables.
+    - 5.11 Distribuciones condicionales.
+    - 5.12 Fórmula de Bayes.
+    - 5.13 Esperanza y varianza para variables aleatorias multidimensionales.
+    - 5.14 Transformación de variables aleatorias.
+    - 5.15 Producto interno de variables aleatorias.
+    - 5.16 La distribución normal.
+        - 5.16.1 Producto de distribuciones Gaussianas.
+        - 5.16.2 Transformaciones lineales entre variables aleatorias Gaussianas.
+        - 5.16.3 Muestreo desde distribuciones Gaussianas multivariantes.
+    - 5.17 La familia exponencial de distribuciones.
+        - 5.17.1 Distribuciones conjugadas.
+        - 5.17.2 Estadígrafos suficientes.
+        - 5.17.3 Distribuciones exponenciales.
+    - 5.18 Transformaciones inversas.
+        - 5.18.1 Técnica basada en la función de distribución.
+        - 5.18.2 Cambio de variables.
+    - 5.19 Desigualdad de Chebyshev.
+    - 5.20 Ley de los grandes números.
+    - 5.21 Teorema central del límite.
