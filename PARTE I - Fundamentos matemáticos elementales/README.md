@@ -66,7 +66,7 @@
         - 3.7.3 Comparación con la diagonalización.
     - 3.8 Aproximaciones matriciales.
 
-- [**CLASE 1.4:** Un repaso (consciente) de cálculo diferencial.]((https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20I%20-%20Fundamentos%20matem%C3%A1ticos%20elementales/clase_1_4.ipynb))
+- [**CLASE 1.4:** Un repaso (consciente) de cálculo diferencial.](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20I%20-%20Fundamentos%20matem%C3%A1ticos%20elementales/clase_1_4.ipynb)
     - 4.1 Introducción.
     - 4.2 Diferenciación de funciones de una variable.
         - 4.2.1 Álgebra de derivadas.
@@ -91,7 +91,7 @@
     - 4.7 Matriz Hessiana.
     - 4.8 Serie multivariable de Taylor.
 
-- **CLASE 1.5:** Una introducción (generosa) al cálculo de probabilidades.
+- [**CLASE 1.5:** Una introducción (generosa) al cálculo de probabilidades.](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20I%20-%20Fundamentos%20matem%C3%A1ticos%20elementales/clase_1_5.ipynb)
     - 5.1 Introducción.
     - 5.2 Teoría clásica de probabilidad.
         - 5.2.1 El concepto de probabilidad.
