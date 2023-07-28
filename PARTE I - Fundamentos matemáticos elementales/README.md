@@ -104,7 +104,7 @@
     - 5.4 Experimentos o pruebas compuestas.
         - 5.4.1 Pruebas de Bernoulli.
         - 5.4.2 Número más probable de éxitos en $n$ pruebas de Bernoulli.
-    - 5.5 Conjuntos numrables y no numerables.
+    - 5.5 Conjuntos numerables y no numerables.
         - 5.5.1 Definición de probabilidad para espacios muestrales infinitos numerables.
         - 5.5.2 Definición de probabilidad para espacios muestrales infinitos no numerables.
         - 5.5.3 Numerabilidad de un conjunto de puntos con probabilidad positiva.
