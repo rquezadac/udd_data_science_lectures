@@ -65,6 +65,7 @@
         - 3.7.2 Construcción de la descomposición.
         - 3.7.3 Comparación con la diagonalización.
     - 3.8 Aproximaciones matriciales.
+    - 3.9 Comentarios.
 
 - [**CLASE 1.4:** Un repaso (consciente) de cálculo diferencial.](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20I%20-%20Fundamentos%20matem%C3%A1ticos%20elementales/clase_1_4.ipynb)
     - 4.1 Introducción.
@@ -90,6 +91,7 @@
         - 4.6.2 Acumulación regresiva.
     - 4.7 Matriz Hessiana.
     - 4.8 Serie multivariable de Taylor.
+    - 4.9 Comentarios.
 
 - [**CLASE 1.5:** Una introducción (generosa) al cálculo de probabilidades.](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20I%20-%20Fundamentos%20matem%C3%A1ticos%20elementales/clase_1_5.ipynb)
     - 5.1 Introducción.
@@ -134,3 +136,28 @@
     - 5.19 Desigualdad de Chebyshev.
     - 5.20 Ley de los grandes números.
     - 5.21 Teorema central del límite.
+    - 5.22 Comentarios.
+
+- [**CLASE 1.6:** Un repaso (generoso) de la teoría de optimización..](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20I%20-%20Fundamentos%20matem%C3%A1ticos%20elementales/clase_1_6.ipynb)
+    - 6.1 Introducción.
+    - 6.2 Algoritmo de gradiente descendente.
+        - 6.2.1 Tasa de aprendizaje.
+        - 6.2.2 Gradiente descendente con moméntum.
+        - 6.2.3 Gradiente descendente estocástico.
+    - 6.3 Optimización con restricciones.
+    - 6.4 Optimización de funciones convexas.
+        - 6.4.1 Programación lineal.
+        - 6.4.2 Programación cuadrática.
+        - 6.4.3 Función conjugada convexa.
+    - 6.5 Comentarios.
+
+---
+
+## Bibliografía y referencias.
+- Apostol, T. M. (1991). Calculus, volume 1. John Wiley & Sons.
+- Baeza, R. S. (2003). Algebra: álgebra lineal: apuntes. Universidad de Santiago de Chile, Departamento de Matemática y Ciencia de la Computación.
+- Deisenroth, M. P., Faisal, A. A., & Ong, C. S. (2020). Mathematics for Machine Learning --> Este libro es un *must-have* para cualquier entusiasta del modelamiento predictivo mediante algoritmos de aprendizjae, ya que, mediante un lenguaje sencillo, sienta las bases teóricas necesarias para poder desarrollar más adelante los conceptos necesarios para comprender a cabalidad todo lo relativo a los modelos de machine learning. El índice que hemos construido para estos apuntes sigue su estructura básica y varias de las secciones tratadas en el repositorio se han traducido (espero que lo más fielmente posible) de este grandioso texto.
+- Géron, A. (2022). Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow. " O'Reilly Media, Inc.".
+- Ruiz, C. P., & de Jesús, C. (1995). Cálculo vectorial. Prentice-Hall Hispanoamericana.
+- VanderPlas, J. (2016). Python data science handbook: Essential tools for working with data. " O'Reilly Media, Inc.".
+- https://github.com/ageron/handson-ml3 --> El respositorio online del libro Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow del gran Aurélien Geron (tercera edición). Si bien este libro está orientado a construir un *background* de tipo más práctico y orientado al código, posee recursos de aprendizaje teóricos muy potentes y que siempre valdrá la pena tener en consideración.
