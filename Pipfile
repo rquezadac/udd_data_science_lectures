@@ -18,6 +18,7 @@ lightgbm = "*"
 kedro = "*"
 ipython = "*"
 ipympl = "*"
+polars = "*"
 
 [dev-packages]
 
