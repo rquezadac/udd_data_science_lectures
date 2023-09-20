@@ -1,0 +1,85 @@
+# PARTE 2: Algoritmos de aprendizaje supervisado.
+---
+
+## Índice de contenidos.
+- [**CLASE 2.1:** Una introducción (sencilla) a los algoritmos de aprendizaje.](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20II%20-%20Modelos%20de%20aprendizaje%20supervisado/clase_2_1.ipynb)
+    - 1.1 Motivación.
+    - 1.2 Algoritmos de aprendizaje.
+        - 1.2.1 La tarea o problema, $T$.
+        - 1.2.2 La métrica de desempeño, $P$.
+        - 1.2.3 La experiencia, $E$.
+    - 1.3 Principio de minimización del riesgo empírico.
+        - 1.3.1 Funciones permisibles como hipótesis.
+        - 1.3.2 Función de costo.
+        - 1.3.3 Regularización y overfitting.
+        - 1.3.4 Validación cruzada.
+    - 1.4 Estimación de parámetros.
+        - 1.4.1 Estimación de máxima verosimilitud (MLE).
+        - 1.4.2 Estimación máxima a posteriori (MAP).
+        - 1.4.3 Ajuste de modelos.
+    - 1.5 Modelos probabilísticos.
+        - 1.5.1 Conceptualización.
+        - 1.5.2 Inferencia Bayesiana.
+        - 1.5.3 Modelos con *variables latentes*.
+    - 1.6 Una (breve) introducción a la teoría algebraica de grafos.
+        - 1.6.1 Algunos principios semánticos.
+        - 1.6.2 Independencia condicional.
+    - 1.7 Una introducción teórica a la selección de modelos.
+        - 1.7.1 Validación cruzada anidada.
+        - 1.7.2 Selección Bayesiana.
+        - 1.7.3 Factor de Bayes.
+    - 1.8 Comentarios.
+
+- [**CLASE 2.2:** Una introducción a la librería **Scikit-Learn**.](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20II%20-%20Modelos%20de%20aprendizaje%20supervisado/clase_2_2.ipynb)
+    - 2.1 Introducción.
+    - 2.2 Representación de la data en **Scikit-Learn**.
+        - 2.2.1 Data con formato de tabla.
+        - 2.2.2 Matriz de atributos (variables independientes).
+        - 2.2.3 Arreglo de valores objetivo o etiquetas.
+    - 2.3 API estimadora de **Scikit-Learn**.
+        - 2.3.1 Elementos básicos de la API.
+        - 2.3.2 Algunos ejemplos sencillos.
+    - 2.4 Hiperparámetros y validación.
+        - 2.4.1 Lo que no debemos hacer...
+        - 2.4.2 El conjunto de validación.
+        - 2.4.3 Implementación (básica) de la validación cruzada.
+    - 2.5 Una introducción práctica a la selección de modelos.
+        - 2.5.1 El trade-off entre varianza y sesgo.
+        - 2.5.2 Curvas de aprendizaje.
+        - 2.5.3 Optimización de hiperparámetros por medio de grillas.
+    - 2.6 Una (breve) introducción al pre-procesamiento de datos categóricos.
+    - 2.7 Comentarios.
+
+- **CLASE 2.3:** Modelos de clasificación.
+    - 3.1 Introducción.
+    - 3.2 El problema.
+        - 3.2.1 Problema binario.
+        - 3.2.2 Problema multinomial.
+    - 3.3 Algoritmo de gradiente descendente (otra vez...).
+        - 3.3.1 Función de costo.
+        - 3.3.2 Implementación en **Scikit-Learn**.
+        - 3.3.3 Función de decisión.
+    - 3.3 Métricas de rendimiento de un modelo de clasificación.
+        - 3.3.1 Exactitud.
+        - 3.3.2 Matriz de confusión.
+        - 3.3.3 Precisión y sensibilidad.
+        - 3.3.4 El trade-off entre previsión y sensibilidad.
+        - 3.3.5 Curva característica relativa-operativa (ROC).
+    - 3.4 Implementación de modelos multinomiales.
+        - 3.4.1 Lógicas de tipo *one-versus-one* y *one-versus-the-rest*.
+        - 3.4.2 Análisis de desempeño.
+    - 3.5 Implementación de modelos multi-output.
+    - 3.6 Caso de estudio: Modelo de reconocimiento de especies minerales.
+    - 3.7 Comentarios.
+
+---
+
+## Bibliografía y referencias.
+- Apostol, T. M. (1991). Calculus, volume 1. John Wiley & Sons.
+- Baeza, R. S. (2003). Algebra: álgebra lineal: apuntes. Universidad de Santiago de Chile, Departamento de Matemática y Ciencia de la Computación.
+- Deisenroth, M. P., Faisal, A. A., & Ong, C. S. (2020). Mathematics for Machine Learning --> Este libro es un *must-have* para cualquier entusiasta del modelamiento predictivo mediante algoritmos de aprendizaje, ya que, mediante un lenguaje sencillo, sienta las bases teóricas necesarias para poder desarrollar más adelante los conceptos necesarios para comprender a cabalidad todo lo relativo a los modelos de machine learning. El índice que hemos construido para estos apuntes sigue su estructura básica y varias de las secciones tratadas en el repositorio se han traducido (espero que lo más fielmente posible) de este grandioso texto.
+- Géron, A. (2022). Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow. " O'Reilly Media, Inc." --> Este libro es un *must-have* para cualquier entusiasta de la ciencia de datos, ya que es una excelente manera de iniciar nuestro viaje desde una perspectiva completamente práctica en Python, haciendo uso intensivo de la librería **Scikit-Learn**. Su repositorio en Github es también una forma maravillosa de aprender algunos temas avanzados relativos a gráficos, que siempre es útil cuando se trata de analizar datos.
+- Ruiz, C. P., & de Jesús, C. (1995). Cálculo vectorial. Prentice-Hall Hispanoamericana.
+- VanderPlas, J. (2016). Python data science handbook: Essential tools for working with data. " O'Reilly Media, Inc.".
+- https://github.com/ageron/handson-ml3 --> El respositorio online del libro Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow del gran Aurélien Geron (tercera edición). Si bien este libro está orientado a construir un *background* de tipo más práctico y orientado al código, posee recursos de aprendizaje teóricos muy potentes y que siempre valdrá la pena tener en consideración.
+- https://scikit-learn.org/stable/user_guide.html --> La documentación de **Scikit-Learn**. Se trata de un recurso maravilloso, puesto que es muy concisa en relación a lo que necesitamos saber antes de implementar rápidamente cualquier solución basada en algoritmos de aprendizaje.
