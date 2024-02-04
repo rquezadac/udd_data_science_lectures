@@ -19,6 +19,7 @@ kedro = "*"
 ipython = "*"
 ipympl = "*"
 polars = "*"
+arviz = "*"
 
 [dev-packages]
 

@@ -72,6 +72,25 @@
     - 3.6 Caso de estudio: Modelo de reconocimiento de especies minerales.
     - 3.7 Comentarios.
 
+- **CLASE 2.4:** Modelos lineales generalizados.
+
+- **CLASE 2.5:** Máquinas de soporte vectorial.
+    - 5.1 Introducción.
+    - 5.2 El hiperplano de separación.
+    - 5.3 Formulación del problema primal.
+        - 5.3.1 El concepto de margen.
+        - 5.3.2 Clasificación con márgenes rígidos.
+        - 5.3.3 Una justificación (razonable) de por qué $d=1$.
+        - 5.3.4 Clasificación con márgenes blandos.
+        - 5.3.5 Función de costo de Hinge.
+    - 5.4 Formulación del problema dual.
+        - 5.4.1 Problema dual vía multiplicadores de Lagrange.
+        - 5.4.2 Un enfoque basado en el concepto de envolvente convexa.
+    - 5.5 Problemas no linealmente separables.
+        - 5.5.1 Implementación de funciones kernel.
+        - 5.5.2 Truco del kernel.
+    - 5.6 Formulación de una máquina de soporte vectorial como un programa cuadrático.
+
 ---
 
 ## Bibliografía y referencias.
