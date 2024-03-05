@@ -138,7 +138,7 @@
     - 5.21 Teorema central del límite.
     - 5.22 Comentarios.
 
-- [**CLASE 1.6:** Un repaso (generoso) de la teoría de optimización..](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20I%20-%20Fundamentos%20matem%C3%A1ticos%20elementales/clase_1_6.ipynb)
+- [**CLASE 1.6:** Un repaso (generoso) de la teoría de optimización.](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20I%20-%20Fundamentos%20matem%C3%A1ticos%20elementales/clase_1_6.ipynb)
     - 6.1 Introducción.
     - 6.2 Algoritmo de gradiente descendente.
         - 6.2.1 Tasa de aprendizaje.
@@ -151,13 +151,59 @@
         - 6.4.3 Función conjugada convexa.
     - 6.5 Comentarios.
 
+- [**CLASE 1.7:** Una (no tan breve) introducción a la teoría de grafos.](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20I%20-%20Fundamentos%20matem%C3%A1ticos%20elementales/clase_1_7.ipynb)
+    - 7.1 Introducción.
+    - 7.2 Elementos básicos de un grafo.
+    - 7.3 Potencias de la matriz de adyacencia de un grafo.
+    - 7.4 Teorema de Perron-Frobenius.
+    - 7.5 Autovectores *derechos* de las matrices de un grafo.
+        - 7.5.1 Un ejemplo: Agrupamiento espectral.
+            - 7.5.1.1 Relación entre los encajes de Shi-Malik y Ng-Jordan.
+        - 7.5.2 Perspectiva Laplaciana del agrupamiento espectral.
+            - 7.5.2.1 Laplaciano de un grafo.
+            - 7.5.2.2 Modelo de optimización Laplaciano.
+        - 7.5.3 Perspectiva matricial del agrupamiento espectral.
+            - 7.5.3.1 Predicción de la dirección de un enlace.
+        - 7.5.4 Una perspectiva informativa del agrupamiento espectral.
+    - 7.6 Autovectores *izquierdos* de las matrices de un grafo.
+        - 7.6.1 Algoritmo PageRank.
+        - 7.6.2 Métricas relacionadas de prestigio y centralización.
+        - 7.6.3 Aplicación de los autovectores izquierdos en la predicción de dirección de un enlace.
+    - 7.7 Autovectores de matrices reductibles.
+        - 7.7.1 Caso I: Grafos no dirigidos.
+        - 7.7.2 Caso II: Grafos dirigidos.
+    - 7.8 Algunas aplicaciones en el contexto del aprendizaje automático.
+        - 7.8.1 Clasificación de vértices.
+        - 7.8.2 Conjuntos de datos multidimensionales.
+    - 7.9 Comentarios.
+
+- [**CLASE 1.8:** Una introducción (generosa) a la teoría de la información.](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20I%20-%20Fundamentos%20matem%C3%A1ticos%20elementales/clase_1_8.ipynb)
+    - 8.1 Introducción.
+    - 8.2 El concepto de entropía (de la información).
+        - 8.2.1 Entropía de una variable aleatoria discreta.
+        - 8.2.2 Entropía diferencial de variables aleatorias continuas.
+    - 8.3 Principio de máxima entropía.
+    - 8.4 Información mutua.
+    - 8.5 Divergencia de Kullback-Leibler.
+        - 8.5.1 Relación de la divergencia KL con la información mutua.
+    - 8.6 Entropía cruzada.
+    - 8.7 Perplejidad.
+    - 8.8 El problema de optimización de la información mutua.
+    - 8.9 Principio de la máxima información mutua.
+    - 8.10 Infomax y reducción de redundancia.
+        - 8.10.1 Modelamento de un sistema perceptual.
+    - 8.11 Variables espacialmente coherentes.
+    - 8.12 Variables espacialmente incoherentes.
+    - 8.13 Comentarios.
+
 ---
 
 ## Bibliografía y referencias.
+- Aggarwal, Ch. (2020). Linear Algebra and Optimization for Machine Learning --> Este es un libro maravilloso y lleno de detalles para introducirnos en la teoría matemática que conforma la base de los algoritmos de aprendizaje. Se trata de un libro *no tan fácil de digerir* como otros del mismo campo, pero contiene material extremadamente valioso que suele pasarse por alto en textos más amables con el lector nóvel (como la teoría de grafos). Es un tremendo recurso y recomiendo a cualquier practicante del modelamiento predictivo mediante algoritmos de machine learning que lo tenga en su biblioteca.
 - Apostol, T. M. (1991). Calculus, volume 1. John Wiley & Sons.
 - Baeza, R. S. (2003). Algebra: álgebra lineal: apuntes. Universidad de Santiago de Chile, Departamento de Matemática y Ciencia de la Computación.
-- Deisenroth, M. P., Faisal, A. A., & Ong, C. S. (2020). Mathematics for Machine Learning --> Este libro es un *must-have* para cualquier entusiasta del modelamiento predictivo mediante algoritmos de aprendizjae, ya que, mediante un lenguaje sencillo, sienta las bases teóricas necesarias para poder desarrollar más adelante los conceptos necesarios para comprender a cabalidad todo lo relativo a los modelos de machine learning. El índice que hemos construido para estos apuntes sigue su estructura básica y varias de las secciones tratadas en el repositorio se han traducido (espero que lo más fielmente posible) de este grandioso texto.
+- Deisenroth, M. P., Faisal, A. A., & Ong, C. S. (2020). Mathematics for Machine Learning --> Este libro es un *must-have* para cualquier entusiasta del modelamiento predictivo mediante algoritmos de aprendizaje, ya que, mediante un lenguaje sencillo, sienta las bases teóricas necesarias para poder desarrollar más adelante los conceptos necesarios para comprender a cabalidad todo lo relativo a los modelos de machine learning. El índice que hemos construido para estos apuntes sigue su estructura básica y varias de las secciones tratadas en el repositorio se han traducido (espero que lo más fielmente posible) de este grandioso texto.
 - Géron, A. (2022). Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow. " O'Reilly Media, Inc.".
 - Ruiz, C. P., & de Jesús, C. (1995). Cálculo vectorial. Prentice-Hall Hispanoamericana.
 - VanderPlas, J. (2016). Python data science handbook: Essential tools for working with data. " O'Reilly Media, Inc.".
-- https://github.com/ageron/handson-ml3 --> El respositorio online del libro Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow del gran Aurélien Geron (tercera edición). Si bien este libro está orientado a construir un *background* de tipo más práctico y orientado al código, posee recursos de aprendizaje teóricos muy potentes y que siempre valdrá la pena tener en consideración.
+- https://github.com/ageron/handson-ml3 --> El respositorio online del libro *Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow* del gran Aurélien Geron (tercera edición). Si bien este libro está orientado a construir un *background* de tipo más práctico y orientado al código, posee recursos de aprendizaje teóricos muy potentes y que siempre valdrá la pena tener en consideración.
