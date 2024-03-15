@@ -50,31 +50,33 @@
     - 2.6 Una (breve) introducción al pre-procesamiento de datos categóricos.
     - 2.7 Comentarios.
 
-- **CLASE 2.3:** Modelos de clasificación.
+- [**CLASE 2.3:** Modelos de clasificación.](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20II%20-%20Modelos%20de%20aprendizaje%20supervisado/clase_2_3.ipynb)
     - 3.1 Introducción.
     - 3.2 El problema.
-        - 3.2.1 Problema binario.
-        - 3.2.2 Problema multinomial.
-    - 3.3 Algoritmo de gradiente descendente (otra vez...).
-        - 3.3.1 Función de costo.
-        - 3.3.2 Implementación en **Scikit-Learn**.
-        - 3.3.3 Función de decisión.
-    - 3.3 Métricas de rendimiento de un modelo de clasificación.
-        - 3.3.1 Exactitud.
-        - 3.3.2 Matriz de confusión.
-        - 3.3.3 Precisión y sensibilidad.
-        - 3.3.4 El trade-off entre previsión y sensibilidad.
-        - 3.3.5 Curva característica relativa-operativa (ROC).
-    - 3.4 Implementación de modelos multinomiales.
-        - 3.4.1 Lógicas de tipo *one-versus-one* y *one-versus-the-rest*.
-        - 3.4.2 Análisis de desempeño.
-    - 3.5 Implementación de modelos multi-output.
-    - 3.6 Caso de estudio: Modelo de reconocimiento de especies minerales.
-    - 3.7 Comentarios.
+    - 3.3 Función de costo.
+        - 3.3.1 El problema de usar funciones de costo aptas para problemas de regresión.
+        - 3.3.2 Función de entropía cruzada.
+    - 3.4 El algoritmo de gradiente descendente.
+    - 3.5 Muestreo estratificado.
+    - 3.6 Implementación del algoritmo de gradiente descendente en <font color='mediumorchid'>Scikit-Learn</font>.
+    - 3.7 Métricas de desempeño.
+        - 3.7.1 La matriz de confusión.
+        - 3.7.2 El efecto de la validación cruzada.
+        - 3.7.3 Exactitud.
+        - 3.7.4 Precisión y sensibilidad.
+        - 3.7.5 El trade-off entre precisión y sensibilidad.
+        - 3.7.6 Curva característica relativa - operativa (ROC).
+    - 3.8 Modelo de regresión logística binaria.
+    - 3.9 Caso de estudio I: Predicción de colapsos.
+    - 3.9 Clasificación multinomial.
+        - 3.9.1 Estrategias *one-versus-one* y *ove-versus-rest*.
+        - 3.9.2 Análisis del error.
+        - 3.9.3 Regresión logística multinomial o *softmax*.
+    - 3.10 Caso de estudio II: Clasificación de rocas a partir de análisis de tierras
 
 - **CLASE 2.4:** Modelos lineales generalizados.
 
-- **CLASE 2.5:** Máquinas de soporte vectorial.
+- [**CLASE 2.5:** Máquinas de soporte vectorial](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20II%20-%20Modelos%20de%20aprendizaje%20supervisado/clase_2_5.ipynb).
     - 5.1 Introducción.
     - 5.2 El hiperplano de separación.
     - 5.3 Formulación del problema primal.
