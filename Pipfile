@@ -20,6 +20,8 @@ ipython = "*"
 ipympl = "*"
 polars = "*"
 arviz = "*"
+openpyxl = "*"
+pipfile = "*"
 
 [dev-packages]
 
