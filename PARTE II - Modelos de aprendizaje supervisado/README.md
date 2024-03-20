@@ -58,7 +58,7 @@
         - 3.3.2 Función de entropía cruzada.
     - 3.4 El algoritmo de gradiente descendente.
     - 3.5 Muestreo estratificado.
-    - 3.6 Implementación del algoritmo de gradiente descendente en <font color='mediumorchid'>Scikit-Learn</font>.
+    - 3.6 Implementación del algoritmo de gradiente descendente en **Scikit-Learn**.
     - 3.7 Métricas de desempeño.
         - 3.7.1 La matriz de confusión.
         - 3.7.2 El efecto de la validación cruzada.
