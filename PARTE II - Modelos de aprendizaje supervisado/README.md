@@ -69,6 +69,8 @@
     - 3.8 Modelo de regresión logística binaria.
     - 3.9 Caso de estudio I: Predicción de colapsos.
     - 3.9 Clasificación multinomial.
+        - 3.9.1 La función softmax.
+        - 3.9.2 Función de costo para el caso multinomial.
         - 3.9.1 Estrategias *one-versus-one* y *ove-versus-rest*.
         - 3.9.2 Análisis del error.
         - 3.9.3 Regresión logística multinomial o *softmax*.
