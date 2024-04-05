@@ -73,7 +73,9 @@
         - 3.9.2 Función de costo para el caso multinomial.
         - 3.9.1 Estrategias *one-versus-one* y *ove-versus-rest*.
         - 3.9.2 Análisis del error.
-        - 3.9.3 Regresión logística multinomial o *softmax*.
+            - 3.9.2.1 Matriz de confusión generalizada.
+            - 3.9.2.2 Curvas ROC para problemas multinomiales.
+        - 3.9.3 Fronteras de decisión.
     - 3.10 Caso de estudio II: Clasificación de rocas a partir de análisis de tierras raras.
 
 - **CLASE 2.4:** Modelos lineales generalizados.
