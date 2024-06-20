@@ -78,7 +78,27 @@
         - 3.9.3 Fronteras de decisión.
     - 3.10 Caso de estudio II: Clasificación de rocas a partir de análisis de trazas de tierras raras.
 
-- **CLASE 2.4:** Modelos lineales generalizados.
+- [**CLASE 2.4:** Regresión.](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20II%20-%20Modelos%20de%20aprendizaje%20supervisado/clase_2_4.ipynb)
+    - 4.1 Introducción.
+    - 4.2 Regresión lineal.
+        - 4.2.1 Descripción del problema.
+        - 4.2.2 Estimación por mínimos cuadrados.
+            - 4.2.2.1 Formulación.
+            - 4.2.2.2 Ecuación normal.
+        - 4.2.3 Solución aproximada por medio del algoritmo de gradiente descendente.
+        - 4.2.4 Gradiente descendente estocástico.
+        - 4.2.5 Implementación del algoritmo de GD usando *mini-batches*.
+        - 4.2.6 Implementaciones del modelo de regresión lineal en **Scikit-Learn**.
+        - 4.2.6 Estimación por máxima verosimilitud.
+            - 4.2.6.1 Formulación.
+            - 4.5.6.2 Estimación de parámetros.
+            - 4.2.6.3 Extensión a problemas no lineales por medio de transformaciones.
+            - 4.2.6.4 Un breve comentario acerca del *overfitting*.
+        - 4.2.7 Estimación máxima *a posteriori* (MAP).
+            - 4.2.7.1 Aplicación de la estimación MAP a la regularización.
+    - 4.3 Un enfoque Bayesiano para la regresión lineal.
+        - 4.3.1 Formulación.
+        - 4.3.2 Predicciones *a priori*.
 
 - [**CLASE 2.5:** Máquinas de soporte vectorial](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20II%20-%20Modelos%20de%20aprendizaje%20supervisado/clase_2_5.ipynb).
     - 5.1 Introducción.
