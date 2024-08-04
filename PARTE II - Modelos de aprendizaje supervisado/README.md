@@ -88,7 +88,7 @@
         - 4.2.3 Solución aproximada por medio del algoritmo de gradiente descendente.
         - 4.2.4 Gradiente descendente estocástico.
         - 4.2.5 Implementación del algoritmo de GD usando *mini-batches*.
-        - 4.2.6 Implementaciones del modelo de regresión lineal en **Scikit-Learn**.
+        - 4.2.6 Implementaciones del modelo de regresión lineal en **Scikit-Learn** (Parte I).
         - 4.2.6 Estimación por máxima verosimilitud.
             - 4.2.6.1 Formulación.
             - 4.5.6.2 Estimación de parámetros.
