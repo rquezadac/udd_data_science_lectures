@@ -93,7 +93,8 @@
             - 4.2.6.1 Formulación.
             - 4.5.6.2 Estimación de parámetros.
             - 4.2.6.3 Extensión a problemas no lineales por medio de transformaciones.
-            - 4.2.6.4 Un breve comentario acerca del *overfitting*.
+            - 4.2.6.4 Estimación de la varianza del ruido.
+            - 4.2.6.5 Un breve comentario acerca del *overfitting*.
         - 4.2.7 Estimación máxima *a posteriori* (MAP).
             - 4.2.7.1 Aplicación de la estimación MAP a la regularización.
     - 4.3 Un enfoque Bayesiano para la regresión lineal.
