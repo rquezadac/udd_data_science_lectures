@@ -95,11 +95,14 @@
             - 4.2.6.3 Extensión a problemas no lineales por medio de transformaciones.
             - 4.2.6.4 Estimación de la varianza del ruido.
             - 4.2.6.5 Un breve comentario acerca del *overfitting*.
-        - 4.2.7 Estimación máxima *a posteriori* (MAP).
-            - 4.2.7.1 Aplicación de la estimación MAP a la regularización.
-    - 4.3 Un enfoque Bayesiano para la regresión lineal.
-        - 4.3.1 Formulación.
-        - 4.3.2 Predicciones *a priori*.
+    - 4.4 Métricas de desempeño.
+    - 4.5 Modelos lineales regularizados.
+        - 4.5.1 El modelo de tipo *"ridge"*.
+        - 4.5.2 El modelo de tipo *LASSO*.
+        - 4.5.3 El modelo de tipo elástico neto.
+    - 4.6 Un enfoque Bayesiano para la regresión lineal.
+        - 4.6.1 Formulación.
+        - 4.6.2 Predicciones *a priori*.
 
 - [**CLASE 2.5:** Máquinas de soporte vectorial](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20II%20-%20Modelos%20de%20aprendizaje%20supervisado/clase_2_5.ipynb).
     - 5.1 Introducción.
