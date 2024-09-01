@@ -23,6 +23,7 @@ arviz = "*"
 openpyxl = "*"
 pipfile = "*"
 statsmodels = "*"
+plotly = "*"
 
 [dev-packages]
 
