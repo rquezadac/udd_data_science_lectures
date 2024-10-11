@@ -24,6 +24,7 @@ openpyxl = "*"
 pipfile = "*"
 statsmodels = "*"
 plotly = "*"
+pymc3 = "*"
 
 [dev-packages]
 
