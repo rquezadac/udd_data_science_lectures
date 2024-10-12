@@ -25,6 +25,9 @@ pipfile = "*"
 statsmodels = "*"
 plotly = "*"
 pymc3 = "*"
+emcee = "*"
+xarray = "*"
+corner = "*"
 
 [dev-packages]
 
