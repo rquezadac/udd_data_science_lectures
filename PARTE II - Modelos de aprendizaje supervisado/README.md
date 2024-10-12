@@ -100,7 +100,7 @@
         - 4.5.1 El modelo de tipo *"ridge"*.
         - 4.5.2 Estimación máxima a posteriori.
         - 4.5.4 El modelo de tipo *LASSO*.
-        - 4.5.4 El modelo de tipo elástico neto.
+        - 4.5.4 El modelo de red elástica.
     - 4.6 Un enfoque Bayesiano para la regresión lineal.
         - 4.6.1 Formulación.
         - 4.6.2 Predicciones *a priori*.
