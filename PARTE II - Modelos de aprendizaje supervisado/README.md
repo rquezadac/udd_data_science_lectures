@@ -103,7 +103,11 @@
         - 4.5.4 El modelo de red elástica.
     - 4.6 Un enfoque Bayesiano para la regresión lineal.
         - 4.6.1 Formulación.
-        - 4.6.2 Predicciones *a priori*.
+        - 4.6.2 Obtención de predicciones (a priori).
+        - 4.6.3 Distribución a posteriori.
+        - 4.6.4 Obtención de predicciones (a posteriori).
+        - 4.6.5 Implementaciones más avanzadas.
+    - 4.7 Modelos lineales generalizados.
 
 - [**CLASE 2.5:** Máquinas de soporte vectorial](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20II%20-%20Modelos%20de%20aprendizaje%20supervisado/clase_2_5.ipynb).
     - 5.1 Introducción.
