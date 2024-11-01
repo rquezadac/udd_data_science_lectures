@@ -108,6 +108,9 @@
         - 4.6.4 Obtención de predicciones (a posteriori).
         - 4.6.5 Implementaciones más avanzadas.
     - 4.7 Modelos lineales generalizados.
+        - 4.7.1 Formulación.
+        - 4.7.2 Distribución de probabilidad de la variable de respuesta.
+        - 4.7.3 El modelo de Poisson.
 
 - [**CLASE 2.5:** Máquinas de soporte vectorial](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20II%20-%20Modelos%20de%20aprendizaje%20supervisado/clase_2_5.ipynb).
     - 5.1 Introducción.
