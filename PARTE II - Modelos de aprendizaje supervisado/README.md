@@ -111,6 +111,7 @@
         - 4.7.1 Formulación.
         - 4.7.2 Distribución de probabilidad de la variable de respuesta.
         - 4.7.3 El modelo de Poisson.
+    - 4.8 Comentarios finales.
 
 - [**CLASE 2.5:** Máquinas de soporte vectorial](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20II%20-%20Modelos%20de%20aprendizaje%20supervisado/clase_2_5.ipynb).
     - 5.1 Introducción.
@@ -128,12 +129,16 @@
         - 5.5.1 Implementación de funciones kernel.
         - 5.5.2 Truco del kernel.
     - 5.6 Formulación de una máquina de soporte vectorial como un programa cuadrático.
+    - 5.7 Ejemplos de implementación en **Scikit-Learn**.
+    - 5.8 Aplicación a problemas de regresión.
+    - 5.9 Comentarios finales.
 
 ---
 
 ## Bibliografía y referencias.
 - Apostol, T. M. (1991). Calculus, volume 1. John Wiley & Sons.
 - Baeza, R. S. (2003). Algebra: álgebra lineal: apuntes. Universidad de Santiago de Chile, Departamento de Matemática y Ciencia de la Computación.
+- Boyd, S. & Vandenberghe, L. (2004). Convex optimization. Cambridge university press --> Este libro es un *must-have* para cualquier entusiasta de las matemáticas que esté interesado en aprender y/o profundizar en la teoría de optimización convexa, con aplicaciones en todo tipo de problemas (con especial cuidado en problemas geométricos y estadísticos).
 - Deisenroth, M. P., Faisal, A. A., & Ong, C. S. (2020). Mathematics for Machine Learning --> Este libro es un *must-have* para cualquier entusiasta del modelamiento predictivo mediante algoritmos de aprendizaje, ya que, mediante un lenguaje sencillo, sienta las bases teóricas necesarias para poder desarrollar más adelante los conceptos necesarios para comprender a cabalidad todo lo relativo a los modelos de machine learning. El índice que hemos construido para estos apuntes sigue su estructura básica y varias de las secciones tratadas en el repositorio se han traducido (espero que lo más fielmente posible) de este grandioso texto.
 - Géron, A. (2022). Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow. " O'Reilly Media, Inc." --> Este libro es un *must-have* para cualquier entusiasta de la ciencia de datos, ya que es una excelente manera de iniciar nuestro viaje desde una perspectiva completamente práctica en Python, haciendo uso intensivo de la librería **Scikit-Learn**. Su repositorio en Github es también una forma maravillosa de aprender algunos temas avanzados relativos a gráficos, que siempre es útil cuando se trata de analizar datos.
 - Ruiz, C. P., & de Jesús, C. (1995). Cálculo vectorial. Prentice-Hall Hispanoamericana.
