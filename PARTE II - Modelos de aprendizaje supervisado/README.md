@@ -128,7 +128,9 @@
     - 5.5 Problemas no linealmente separables.
         - 5.5.1 Implementación de funciones kernel.
         - 5.5.2 Truco del kernel.
-    - 5.6 Formulación de una máquina de soporte vectorial como un programa cuadrático.
+    - 5.6 Formulación estándar de una máquina de soporte vectorial como un programa cuadrático.
+        - 5.6.1 Problema dual.
+        - 5.6.2 Problema primal.
     - 5.7 Ejemplos de implementación en **Scikit-Learn**.
     - 5.8 Aplicación a problemas de regresión.
     - 5.9 Comentarios finales.
