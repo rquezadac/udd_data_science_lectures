@@ -135,6 +135,27 @@
     - 5.8 Aplicación a problemas de regresión.
     - 5.9 Comentarios finales.
 
+- [**CLASE 2.6:** Árboles de decisión](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20II%20-%20Modelos%20de%20aprendizaje%20supervisado/clase_2_6.ipynb).
+    - 6.1 Introducción.
+    - 6.2 Modelos con estructura de tipo árbol.
+    - 6.3 Inducción de árboles de decisión.
+    - 6.4 Reglas de asignación.
+        - 6.4.1 Problema de clasificación.
+        - 6.4.2 Problema de regresión.
+    - 6.5 Criterios de detención.
+    - 6.6 Reglas de *splitting*.
+        - 6.6.1 Familias $\mathcal{P}$ de reglas de *splitting*.
+        - 6.6.2 Bondad o idoneidad de un *split*.
+            - 6.6.2.1 Problema de clasificación.
+            - 6.6.2.2 Problema de regresión.
+        - 6.6.3 Determinación del mejor *split* binario.
+            - 6.6.3.1 Caso de variables ordinales.
+            - 6.6.3.2 Caso de variables categóricas.
+    - 6.7 Árbol con salidas múltiples.
+    - 6.8 Ejemplos de implementación en **Scikit-Learn**.
+    - 6.9 Ejemplos de graficación.
+    - 6.10 Comentarios finales.
+
 ---
 
 ## Bibliografía y referencias.
