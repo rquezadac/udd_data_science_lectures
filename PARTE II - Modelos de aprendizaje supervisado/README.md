@@ -151,10 +151,9 @@
         - 6.6.3 Determinación del mejor *split* binario.
             - 6.6.3.1 Caso de variables ordinales.
             - 6.6.3.2 Caso de variables categóricas.
-    - 6.7 Árbol con salidas múltiples.
+    - 6.7 Algoritmo CART.
     - 6.8 Ejemplos de implementación en **Scikit-Learn**.
-    - 6.9 Ejemplos de graficación.
-    - 6.10 Comentarios finales.
+    - 6.9 Comentarios finales.
 
 ---
 
@@ -164,6 +163,7 @@
 - Boyd, S. & Vandenberghe, L. (2004). Convex optimization. Cambridge university press --> Este libro es un *must-have* para cualquier entusiasta de las matemáticas que esté interesado en aprender y/o profundizar en la teoría de optimización convexa, con aplicaciones en todo tipo de problemas (con especial cuidado en problemas geométricos y estadísticos).
 - Deisenroth, M. P., Faisal, A. A., & Ong, C. S. (2020). Mathematics for Machine Learning --> Este libro es un *must-have* para cualquier entusiasta del modelamiento predictivo mediante algoritmos de aprendizaje, ya que, mediante un lenguaje sencillo, sienta las bases teóricas necesarias para poder desarrollar más adelante los conceptos necesarios para comprender a cabalidad todo lo relativo a los modelos de machine learning. El índice que hemos construido para estos apuntes sigue su estructura básica y varias de las secciones tratadas en el repositorio se han traducido (espero que lo más fielmente posible) de este grandioso texto.
 - Géron, A. (2022). Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow. " O'Reilly Media, Inc." --> Este libro es un *must-have* para cualquier entusiasta de la ciencia de datos, ya que es una excelente manera de iniciar nuestro viaje desde una perspectiva completamente práctica en Python, haciendo uso intensivo de la librería **Scikit-Learn**. Su repositorio en Github es también una forma maravillosa de aprender algunos temas avanzados relativos a gráficos, que siempre es útil cuando se trata de analizar datos.
+- Harrison, M. (2023). Effective XGBoost. Tunning, Understanding and Deploying Classification Models. "Hairysun, Treading on Python Series". --> Este libro es un *must-have* para cualquier entusiasta del modelamiento predictivo y del aprendizaje automático interesado en la práctica e implementación de modelos de tipo árbol de decisión y ensambles completos.
 - Ruiz, C. P., & de Jesús, C. (1995). Cálculo vectorial. Prentice-Hall Hispanoamericana.
 - VanderPlas, J. (2016). Python data science handbook: Essential tools for working with data. " O'Reilly Media, Inc.".
 - https://github.com/ageron/handson-ml3 --> El respositorio online del libro Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow del gran Aurélien Geron (tercera edición). Si bien este libro está orientado a construir un *background* de tipo más práctico y orientado al código, posee recursos de aprendizaje teóricos muy potentes y que siempre valdrá la pena tener en consideración.
