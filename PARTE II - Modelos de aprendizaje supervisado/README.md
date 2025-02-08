@@ -77,6 +77,7 @@
             - 3.9.2.2 Curvas ROC para problemas multinomiales.
         - 3.9.3 Fronteras de decisión.
     - 3.10 Caso de estudio II: Clasificación de rocas a partir de análisis de trazas de tierras raras.
+    - 3.11 Comentarios.
 
 - [**CLASE 2.4:** Regresión.](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20II%20-%20Modelos%20de%20aprendizaje%20supervisado/clase_2_4.ipynb)
     - 4.1 Introducción.
@@ -111,7 +112,7 @@
         - 4.7.1 Formulación.
         - 4.7.2 Distribución de probabilidad de la variable de respuesta.
         - 4.7.3 El modelo de Poisson.
-    - 4.8 Comentarios finales.
+    - 4.8 Comentarios.
 
 - [**CLASE 2.5:** Máquinas de soporte vectorial](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20II%20-%20Modelos%20de%20aprendizaje%20supervisado/clase_2_5.ipynb).
     - 5.1 Introducción.
@@ -133,7 +134,7 @@
         - 5.6.2 Problema primal.
     - 5.7 Ejemplos de implementación en **Scikit-Learn**.
     - 5.8 Aplicación a problemas de regresión.
-    - 5.9 Comentarios finales.
+    - 5.9 Comentarios.
 
 - [**CLASE 2.6:** Árboles de decisión](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20II%20-%20Modelos%20de%20aprendizaje%20supervisado/clase_2_6.ipynb).
     - 6.1 Introducción.
@@ -151,9 +152,8 @@
         - 6.6.3 Determinación del mejor *split* binario.
             - 6.6.3.1 Caso de variables ordinales.
             - 6.6.3.2 Caso de variables categóricas.
-    - 6.7 Algoritmo CART.
-    - 6.8 Ejemplos de implementación en **Scikit-Learn**.
-    - 6.9 Comentarios finales.
+    - 6.7 Ejemplos de implementación en **Scikit-Learn**.
+    - 6.8 Comentarios.
 
 ---
 
