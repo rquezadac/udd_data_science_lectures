@@ -155,6 +155,26 @@
     - 6.7 Ejemplos de implementación en **Scikit-Learn**.
     - 6.8 Comentarios.
 
+- [**CLASE 2.7:** Métodos de ensamble](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20II%20-%20Modelos%20de%20aprendizaje%20supervisado/clase_2_6.ipynb).
+    - 7.1 Introducción.
+    - 7.2 Voting.
+    - 7.3 Bagging.
+        - 7.3.1 Algunos paradigmas de "ensamblaje".
+        - 7.3.2 Algoritmo de *bootstrap aggregating*.
+        - 7.3.3 Aspectos teóricos.
+        - 7.3.4 Modelo de bosque aleatorizado o *random forest*.
+        - 7.3.5 Espectro de aleatorización.
+    - 7.4 Boosting.
+        - 7.4.1 Procedimiento general.
+        - 7.4.2 Algoritmo AdaBoost.
+        - 7.4.3 Aspectos teóricos.
+            - 7.4.3.1 Análisis inicial.
+            - 7.4.3.2 Un explicación relativa a los márgenes.
+            - 7.4.3.3 Un punto de vista estadístico.
+        - 7.4.4 Extensión a problemas multinomiales.
+        - 7.4.5 Tolerancia al ruido.
+
+
 ---
 
 ## Bibliografía y referencias.
