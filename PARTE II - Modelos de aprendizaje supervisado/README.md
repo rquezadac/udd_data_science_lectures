@@ -159,8 +159,9 @@
     - 7.1 Introducción.
     - 7.2 Voting.
     - 7.3 Bagging.
-        - 7.3.1 Algunos paradigmas de "ensamblaje".
-        - 7.3.2 Algoritmo de *bootstrap aggregating*.
+        - 7.3.1 Intuición.
+        - 7.3.2 Algunos paradigmas de "ensamblaje".
+        - 7.3.3 Algoritmo de bagging.
         - 7.3.3 Aspectos teóricos.
         - 7.3.4 Modelo de bosque aleatorizado o *random forest*.
         - 7.3.5 Espectro de aleatorización.
