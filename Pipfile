@@ -28,6 +28,7 @@ pymc3 = "*"
 emcee = "*"
 xarray = "*"
 corner = "*"
+optuna = "*"
 
 [dev-packages]
 
