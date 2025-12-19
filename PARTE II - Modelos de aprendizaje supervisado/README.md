@@ -155,7 +155,7 @@
     - 6.7 Ejemplos de implementación en **Scikit-Learn**.
     - 6.8 Comentarios.
 
-- [**CLASE 2.7:** Métodos de ensamble](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20II%20-%20Modelos%20de%20aprendizaje%20supervisado/clase_2_6.ipynb).
+- [**CLASE 2.7:** Métodos de ensamble](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20II%20-%20Modelos%20de%20aprendizaje%20supervisado/clase_2_7.ipynb).
     - 7.1 Introducción.
     - 7.2 Voting.
     - 7.3 Bagging.
@@ -164,16 +164,38 @@
         - 7.3.3 Algoritmo de bagging.
         - 7.3.3 Aspectos teóricos.
         - 7.3.4 Modelo de bosque aleatorizado o *random forest*.
-        - 7.3.5 Espectro de aleatorización.
     - 7.4 Boosting.
         - 7.4.1 Procedimiento general.
-        - 7.4.2 Algoritmo AdaBoost.
-        - 7.4.3 Aspectos teóricos.
-            - 7.4.3.1 Análisis inicial.
-            - 7.4.3.2 Un explicación relativa a los márgenes.
-            - 7.4.3.3 Un punto de vista estadístico.
-        - 7.4.4 Extensión a problemas multinomiales.
-        - 7.4.5 Tolerancia al ruido.
+        - 7.4.2 Algoritmo de AdaBoost.
+        - 7.4.3 Algoritmo de gradient boosting.
+            - 7.4.3.1 Un caso particular: Tree-based gradient boosting.
+            - 7.4.3.2 Regularización por medio de "shrinkage".
+        - 7.4.4 El modelo XGBoost.
+            - 7.4.4.1 Función objetivo regularizada.
+            - 7.4.4.2 Búsqueda del mejor ponderador por cada nodo terminal.
+            - 7.4.4.3 Algoritmos de búsqueda del mejor split.
+    - 7.5 Comentarios.
+
+- [**CLASE 2.8:** Selección, evaluación e inspección de modelos](https://github.com/rquezadac/udd_data_science_lectures/blob/main/PARTE%20II%20-%20Modelos%20de%20aprendizaje%20supervisado/clase_2_8.ipynb).
+    - 8.1 Introducción.
+    - 8.2 Validación cruzada.
+        - 8.2.1 Cómputo de métricas post-validación cruzada.
+            - 8.2.1.1 Obtención de predicciones post-validación cruzada.
+        - 8.2.2 Iteradores de validación cruzada.
+            - 8.2.2.1 Iteradores para datos iid.
+            - 8.2.2.2 Iteradores para validación cruzada estratificada.
+            - 8.2.2.3 Iteradores para datos agrupados.
+            - 8.2.2.4 Validación cruzada para series de tiempo.
+    - 8.3 Ajuste de hiperparámetros en un esquema de validación cruzada.
+        - 8.3.1 Búsqueda exhaustiva por grillas (`GridSearchCV`).
+        - 8.3.2 Búsqueda aleatorizada (`RandomizedSearchCV`).
+        - 8.3.3 Búsqueda con "halving" sucesivo.
+        - 8.3.4 Un último comentario acerca de las métricas de desempeño.
+    - 8.4 Optimización Bayesiana de hiperparámetros con **Optuna**.
+        - 8.4.1 Estimador de Parzen con estructura de tipo árbol (TPE).
+    - 8.5 Ajuste de umbrales de decisión para modelos de clasificación.
+        - 8.5.1 Ajuste del umbral de discriminación.
+    - 8.6 Métricas y *scoring*.
 
 
 ---
